@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# WanderList
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+WanderList is a web application designed to generate personalized travel itineraries based on user preferences such as budget, interests, and trip duration. Utilizing Google's Gemini 1.5 Flash model, WanderList offers a user-friendly interface that enhances the travel planning experience.
 
-## Available Scripts
+## Features
+- **User-Friendly Interface:** Easy navigation for users to input their travel preferences.
+- **Multiple Input Options:** Capture essential details including:
+  - City Name
+  - Number of Days
+  - Interests (up to three)
+  - Activity Types (up to three)
+  - Cuisine Types (up to two)
+- **Dynamic Itinerary Generation:** Integration with the Gemini 1.5 Flash model for AI-generated itineraries.
+- **Dual-Card Layout:** Two cards displaying input options and generated itineraries.
+- **Local Storage:** Save and access multiple itineraries easily.
 
-In the project directory, you can run:
+## How It Works
+1. **Input Preferences:** Users fill out the form with their travel details.
+2. **Generate Itinerary:** After submission, the data is sent to the Gemini 1.5 Flash model via API.
+3. **Display Itineraries:** Generated itineraries appear as tiles, which can be clicked for more information.
+4. **Storage:** All itineraries are stored in local storage for easy retrieval.
 
-### `npm start`
+## User Personalization
+WanderList emphasizes user personalization by allowing selections for interests, activities, and cuisine preferences, ensuring tailored itineraries. Fun elements, like emojis, enhance user engagement.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Future Improvements
+Potential improvements include better formatting of Gemini API responses and additional input options for enhanced itinerary generation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
+![Screenshot 1](images/s1.png)
+![Screenshot 2](images/s2.png)
+![Screenshot 3](images/s3.png)
+![Screenshot 4](images/s4.png)
 
-### `npm test`
+## Conclusion
+WanderList successfully addresses the need for personalized travel itineraries by leveraging generative AI to provide tailored experiences based on user preferences. This project demonstrates the potential of combining user-friendly design with advanced technology to enhance travel planning. While the current prototype offers essential features, future improvements could include refining the API response formatting and expanding input options to further enrich itinerary generation. Overall, WanderList serves as a promising foundation for creating customized travel experiences that cater to individual needs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

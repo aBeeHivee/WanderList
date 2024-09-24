@@ -29,8 +29,6 @@ Potential improvements include better formatting of Gemini API responses and add
 
 ## Screenshots
 
-🚀 **Live on Netlify**: [Click Here to Visit](https://66f2933d21853cd812204f15--wanderlistt.netlify.app/)
-
 ![Screenshot 1](images/s1.png)
 
 ![Screenshot 2](images/s2.png)

@@ -28,8 +28,8 @@ WanderList emphasizes user personalization by allowing selections for interests,
 Potential improvements include better formatting of Gemini API responses and additional input options for enhanced itinerary generation.
 
 ## Screenshots
-This is a deployed version of my project on Netlify.  
-Check it out here: [Live Demo]([https://your-netlify-app-link.netlify.app](https://66f2933d21853cd812204f15--wanderlistt.netlify.app/](https://66f2933d21853cd812204f15--wanderlistt.netlify.app/))
+
+🚀 **Live on Netlify**: [Click Here to Visit](https://66f2933d21853cd812204f15--wanderlistt.netlify.app/)
 
 ![Screenshot 1](images/s1.png)
 
